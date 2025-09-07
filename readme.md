@@ -3,25 +3,7 @@
 A full-stack web application to manage employees and departments.  
 Built with **Spring Boot (Java) + MySQL** for the backend and **Next.js (React + TypeScript + TailwindCSS)** for the frontend.
 
----
-
-## 📑 Table of Contents
-- [Introduction](#introduction)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
-  - [Database Setup](#database-setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Examples](#examples)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
-
+![Alt text](employee-management-system.png)
 ---
 
 ## 🚀 Introduction
@@ -60,25 +42,6 @@ The **Employee Management System** helps organizations manage employees and depa
 - 📱 Responsive design
 - 🔄 API integration between Next.js frontend and Spring Boot backend
 
----
-
-## 📂 Project Structure
-
-```
-Employee-Management-full/
-│
-├── employee-management-backend/     # Spring Boot backend
-│   ├── src/                        # Java source code
-│   ├── build.gradle
-│   ├── compose.yml                 # MySQL Docker setup
-│   └── application.properties      # Spring Boot DB config
-│
-└── employee-management-frontend/    # Next.js frontend
-    ├── app/                        # Next.js App Router
-    ├── components/                 # Reusable UI components
-    ├── package.json               # Frontend dependencies
-    └── tsconfig.json
-```
 
 ---
 
